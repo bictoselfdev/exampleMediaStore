@@ -1,0 +1,97 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp" />
+
+                <TextView
+                    android:id="@+id/tvPath"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp" />
+
+                <TextView
+                    android:id="@+id/tvUri"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="#0067A3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnStream"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Data"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/btnDelete"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Del"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
